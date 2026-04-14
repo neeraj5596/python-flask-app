@@ -8,6 +8,9 @@ A minimal Flask web application built for learning containerization and deployme
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED)
 ![AWS ECS](https://img.shields.io/badge/AWS-ECS-FF9900)
 
+<img width="953" height="533" alt="image" src="https://github.com/user-attachments/assets/fbb8ea62-3fe5-4d7d-8849-d29b6e0a8a60" />
+
+
 ## Features
 
 - Responsive landing page with modern glassmorphism UI
