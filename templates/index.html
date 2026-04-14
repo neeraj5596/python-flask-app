@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Neeraj DevOps Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(270deg,#111827,#1f2937,#111827);
+background-size:600% 600%;
+animation:bgAnimation 15s ease infinite;
+color:white;
+}
+
+@keyframes bgAnimation{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+text-align:center;
+max-width:900px;
+}
+
+h1{
+font-size:3rem;
+margin-bottom:10px;
+animation:fadeIn 2s ease;
+}
+
+.subtitle{
+color:#9ca3af;
+margin-bottom:40px;
+font-size:1.2rem;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1f2937;
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 5px 20px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+background:#374151;
+}
+
+.card span{
+display:block;
+font-size:0.8rem;
+color:#9ca3af;
+margin-bottom:5px;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+.card strong{
+font-size:1.2rem;
+}
+
+.skills{
+margin-top:40px;
+}
+
+.skill{
+display:inline-block;
+background:#2563eb;
+padding:10px 15px;
+border-radius:20px;
+margin:5px;
+font-size:0.9rem;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#1d4ed8;
+transform:scale(1.1);
+}
+
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:12px 25px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:25px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#16a34a;
+transform:scale(1.1);
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(-20px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+footer{
+margin-top:50px;
+color:#9ca3af;
+font-size:0.8rem;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚀 Neeraj Welcomes You</h1>
+
+<p class="subtitle">
+Cloud | DevOps | Linux Engineer
+</p>
+
+<div class="cards">
+
+<div class="card">
+<span>Experience</span>
+<strong>Linux & AIX Admin</strong>
+</div>
+
+<div class="card">
+<span>Containerization</span>
+<strong>Docker</strong>
+</div>
+
+<div class="card">
+<span>Orchestration</span>
+<strong>Kubernetes</strong>
+</div>
+
+<div class="card">
+<span>Infrastructure</span>
+<strong>Terraform</strong>
+</div>
+
+<div class="card">
+<span>CI/CD</span>
+<strong>Jenkins</strong>
+</div>
+
+<div class="card">
+<span>Cloud</span>
+<strong>AWS & Azure</strong>
+</div>
+
+</div>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+<div class="skill">Docker</div>
+<div class="skill">Kubernetes</div>
+<div class="skill">Terraform</div>
+<div class="skill">Jenkins</div>
+<div class="skill">Python</div>
+<div class="skill">Shell</div>
+<div class="skill">Git</div>
+
+</div>
+
+<a href="#" class="btn">View My Projects</a>
+
+<footer>
+<p>Deployed using Docker on AWS EC2 | Domain: neerajverma.space</p>
+</footer>
+
+</div>
+
+</body>
+</html>
